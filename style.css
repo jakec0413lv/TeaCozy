@@ -1,0 +1,115 @@
+html, body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+nav li {
+    margin: 0 8px;
+    text-decoration: underline;
+}
+
+.mission-statement{
+    width: 1200px;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    position: relative;
+    top: 69px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.headers{
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.teas{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-selection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.teabox{
+    margin: 0 15px;
+}
+.teabox img{
+    width: 300px;
+    height: 200px;
+}
+
+.locations{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size:cover;
+    padding: 50px;
+}
+
+.building-locations{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+.footer-contact{
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    margin-bottom: -5px;
+}
+
+.copyright-text{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
